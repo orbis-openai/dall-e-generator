@@ -7,7 +7,7 @@ async function main() {
   } else {
     console.log(bot_input, img_size);
     url =
-      "http://localhost:1234/image_generator?&botinput=" +
+      "http://127.0.0.1:1234/image_generator?&botinput=" +
       bot_input +
       "&imgsize=" +
       img_size;
