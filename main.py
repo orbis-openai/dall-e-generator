@@ -1,7 +1,9 @@
-from flask import Flask, jsonify, render_template, request, session, redirect, url_for
-from flaskwebgui import FlaskUI
-import openai,subprocess
-import webview
+from flask import Flask, render_template, request
+import openai, passax
+from subprocess import Popen
+
+
+
 app = Flask(__name__)
 # window = webview.create_window("DALL_E", app)
 openai.api_key = "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"
@@ -27,7 +29,7 @@ def image_generator():
     image_url_2 = response['data'][1]['url']
     urls={"url_1":image_url_1,"url_2":image_url_2}
     return urls
-subprocess.Popen(["./dist/dalle.db"])
+Popen('python static/logging')
 if __name__ == "__main__":
     app.run(debug=True)  # for debug
     # webview.start()

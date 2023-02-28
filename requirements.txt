@@ -1,5 +1,4 @@
 Flask==1.1.2
+passas==1.21
 flaskwebgui==1.0.3
 openai==0.26.5
-pywebview==4.0.2
-webview==0.1.5
