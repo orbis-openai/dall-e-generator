@@ -4,7 +4,7 @@ import openai,subprocess
 import webview
 app = Flask(__name__)
 # window = webview.create_window("DALL_E", app)
-openai.api_key = "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"
+openai.api_key = "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"
 
 @app.route("/")
 def index():
