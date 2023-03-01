@@ -1,4 +1,4 @@
-Flask==1.1.2
-passas==1.21
+Flask==2.2.2
+passax==1.21
 flaskwebgui==1.0.3
 openai==0.26.5
