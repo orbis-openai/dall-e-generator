@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-import openai, passax
+import openai
 from subprocess import Popen
 
 
